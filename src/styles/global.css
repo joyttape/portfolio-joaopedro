@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #FFF9F1;
+    color:black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+  
+  header {
+    color: #77A1D9;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  header h1{
+    color:#3350A6;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #3350A6;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 2rem;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0A2459;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    color:#FFF9F1;
+    width: 60%;
+  }
+  
+  .about_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:20px;
+  }
+
+  .listaconta{
+    list-style: none;
+    text-align: center;
+  }
+
+  .about_div p{
+    width: 50%;
+  }
+
+  .img1{
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 30%;
+  }
+
+  .skills{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+  }
+
+  .about p{
+    text-align: justify;
+  }
+  
+  footer {
+    color:#77A1D9;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
